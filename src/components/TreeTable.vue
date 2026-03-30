@@ -22,9 +22,7 @@
 import { computed, ref, onMounted, watch } from 'vue';
 import { AgGridVue } from 'ag-grid-vue3';
 import 'ag-grid-enterprise';
-// @ts-ignore – отсутствуют декларации для CSS (можно добавить vite-env.d.ts)
 import 'ag-grid-community/styles/ag-grid.css';
-// @ts-ignore
 import 'ag-grid-community/styles/ag-theme-alpine.css';
 import type { TreeStore } from '../store/TreeStore';
 import type { Item } from '../types';
