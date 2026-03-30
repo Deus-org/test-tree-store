@@ -6,3 +6,14 @@
 
 ```bash
 npm install
+```
+## Запуск
+
+```bash
+npm run dev
+```
+## Тесты
+
+```bash
+npm run test
+```
